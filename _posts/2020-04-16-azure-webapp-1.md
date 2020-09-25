@@ -5,7 +5,7 @@ date:   2020-04-16 12:59:13
 categories: cloud azure
 tags: cloud azure MS
 ---
-![HitCount](http://hits.dwyl.com/graudis/cloud/azure/2020/04/16/azure-webapp-1html.svg)
+![HitCount](http://hits.dwyl.com/graudis/azure-webapp-1.svg)
 
 ​	**필자연역 :** Linux 을 15년 이상 해왔으며, Linux 기반의 Enterprise 인프라 구축 엔지니어 생활을 8년 동안 하였으며, OpenSource 구축 및 기술지원 분야에서 다양한 경험을 하였다.
 
