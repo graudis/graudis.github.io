@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "Public Cloud 전환 프로젝트 : 1부 The Beginning ( 삽질의 서막 )"
-date:   2020-04-16 12:59:13
+title: "Public Cloud 전환 프로젝트 : 1부 The Beginning ( 삽질의 서막 )"
+date: 2020-04-16 12:59:13
+img: azure-webapp-404.png # Add image post (optional)
 categories: cloud azure
 tags: cloud azure MS
 ---
