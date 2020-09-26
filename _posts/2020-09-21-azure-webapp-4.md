@@ -6,6 +6,7 @@ img: azure-webapp-404.png # Add image post (optional)
 categories: cloud azure
 tags: cloud azure MS
 ---
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fgraudis%2Fgraudis.github.io%2Fblob%2Fmaster%2F_posts%2F2020-04-16-azure-webapp-4.md&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
 ​	**필자연역 :** Linux 을 15년 이상 해왔으며, Linux 기반의 Enterprise 인프라 구축 엔지니어 생활을 8년 동안 하였으며, OpenSource 구축 및 기술지원 분야에서 다양한 경험을 하였다.
 
