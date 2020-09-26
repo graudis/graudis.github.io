@@ -130,7 +130,7 @@ tags: cloud azure MS
 
    **[ Azure ARR 구성도 ]**
 
-   ![ARR]({{site.baseurl}}/_image/ARR_architecture.jpg)
+   ![ARR](https://github.com/graudis/graudis.github.io/blob/master/_image/ARR_architecture.jpg)
 
    ARR( Application Request Routing ) : MS 의 IIS Server 내에서의 Web Request " Session 처리 " 를 담당하고 있는 기능으로 나온다. 아놔... MS.... IIS 의 향기가..
 
