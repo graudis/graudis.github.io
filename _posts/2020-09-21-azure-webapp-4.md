@@ -2,7 +2,7 @@
 layout: post
 title: "Public Cloud 전환 프로젝트 : 4부 Build 된 Custom Docker Image 적용 이후 들어나기 시작한 문제점들 (1)."
 date: 2020-09-21 22:59:13
-img: https://github.com/graudis/graudis.github.io/blob/master/_image/azure_logo-1.jpg # Add image post (optional)
+img: azure_logo-1.jpg # Add image post (optional)
 categories: cloud azure
 tags: cloud azure MS
 ---
