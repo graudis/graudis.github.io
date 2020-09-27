@@ -1,2 +1,1 @@
-# Graudis Linux / OpenSource / Public Cloud Enterprise Computing Technology Blog
-![HitCount](http://hits.dwyl.com/graudis/graudisgithubio.svg)
+### Graudis Linux / OpenSource / Public Cloud Enterprise Computing Technology Blog
