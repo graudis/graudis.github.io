@@ -46,7 +46,7 @@ tags: cloud azure MS
 
    **[ 장애 포인트 구성도 ]**
 
-   ![app-error](https://github.com/graudis/graudis.github.io/blob/master/_image/ARR-architecture-2.jpg?raw=true)
+   ![app-error](https://github.com/graudis/graudis.github.io/blob/master/_image/ARR-architecture-2.png?raw=true)
 
    **[ 장애원인 추측 ]**
 
@@ -58,7 +58,7 @@ tags: cloud azure MS
    
    **[ Scouter 모니터링 화면 ]**
    
-   ![scouter](https://github.com/graudis/graudis.github.io/blob/master/_image/scouter-2.jpg?raw=true)
+   ![scouter](https://github.com/graudis/graudis.github.io/blob/master/_image/scouter-2.png?raw=true)
    
    1. **해당 WebApp Instance 의 비정상적인 JAVA Heap Memory 사용량**
    2. **높은 Heap Memory 사용량 대비 동접수가 2~4 User** 
@@ -108,7 +108,7 @@ tags: cloud azure MS
 
 2. **동접사용자가 2~4 User 이고 해당 Instance 내의 OS CPU 사용량이 40% 이하 사용량**
 
-   ![cpu](https://github.com/graudis/graudis.github.io/blob/master/_image/scouter-cpu-1.jpg?raw=true)
+   ![cpu](https://github.com/graudis/graudis.github.io/blob/master/_image/scouter-cpu-1.png?raw=true)
 
    : 동시 접속자가 2~4 User 및 WebApp Instance 내의 OS 의서의 CPU 사용량이 40% 미만
 
@@ -116,7 +116,7 @@ tags: cloud azure MS
 
 3. **WebApp Instance 내의 이유를 알수 없는 JAVA Heap Memory 의 높은 사용량**
 
-   ![heap](https://github.com/graudis/graudis.github.io/blob/master/_image/scouter-heap-1.jpg?raw=true)
+   ![heap](https://github.com/graudis/graudis.github.io/blob/master/_image/scouter-heap-1.png?raw=true)
 
    : 서비스 사용자가 많지 않은 상황에서의 비정상적이고 불안정한  Memory 사용량 발견
 
@@ -126,7 +126,7 @@ tags: cloud azure MS
 
 4. **동일 Web Source 를 사용하는 WebApp Instance 의 불안정한 Request 처리 현상으로 알게된 불안정한 "Loadbalance"**  
 
-   ![tps](https://github.com/graudis/graudis.github.io/blob/master/_image/scouter-tps-1.jpg?raw=true)
+   ![tps](https://github.com/graudis/graudis.github.io/blob/master/_image/scouter-tps-1.png?raw=true)
 
    : WebApp 앞단에 존재하는 **Loadbalance 장비의 SLB 모드가 " Hash " 로 되어 있서 비대칭 적으로 처리 될 수도 있다.** 라고 말할 수도 있다. 
 
