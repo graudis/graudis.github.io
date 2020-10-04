@@ -68,7 +68,7 @@ tags: cloud azure MS
    
    **[ Portal 화면에서의 생태 모니터링 ]**
    
-   ![portal](https://github.com/graudis/graudis.github.io/blob/master/_image/portal-2.jpg?raw=true)
+   ![portal](https://github.com/graudis/graudis.github.io/blob/master/_image/portal-2.png?raw=true)
    
    
    
