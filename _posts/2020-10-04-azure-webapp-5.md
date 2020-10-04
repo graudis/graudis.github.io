@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "Public Cloud 전환 프로젝트 : 5부 Build 된 Custom Docker Image 적용 이후 들어나기 시작한 문제점들 (2)."
-date:   2020-10-04 22:59:13
+title: "Public Cloud 전환 프로젝트 : 5부 Build 된 Custom Docker Image 적용 이후 들어나기 시작한 문제점들 (2)."
+date: 2020-10-04 22:59:13
+img: azure-webapp-404.png # Add image post (optional)
 categories: cloud azure
 tags: cloud azure MS
 ---
