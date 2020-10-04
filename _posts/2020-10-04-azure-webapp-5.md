@@ -37,7 +37,9 @@ tags: cloud azure MS
    **[ WebApp Instance 재시작 원인 ]**
 
    1. **ARR 과 WebApp Instance 간의 HTTP Request "code 200 OK" 가 30초 동안 확인 되지 않으면 강제로 해당 Web Instance 를 재시작 시킨다.**
-2. **WebApp Instance 내의 JVM 메모리에서 이상이 발생하여 WebApp Instance 가 응답이 없을 경우에도 해당 WebApp Instance 를 강제 재시작 시킨다.**
+   
+   2. **WebApp Instance 내의 JVM 메모리에서 이상이 발생하여 WebApp Instance 가 응답이 없을 경우에도 해당 WebApp Instance 를 강제 재시작 시킨다.**
+   
    3. **WebApp Instance Docker 내에 Mount 된 Storage Volume 연결에 장애 발생시 WebApp Instance 의 장애로 이어져 해당 WebApp Instance 를 강제 재시작 시킨다.**
 
    
@@ -48,6 +50,8 @@ tags: cloud azure MS
 
    ![app-error](https://github.com/graudis/graudis.github.io/blob/master/_image/ARR-architecture-2.png?raw=true)
 
+   
+   
    **[ 장애원인 추측 ]**
 
    재시작이 발생한 WebApp Instance 의 Log 를 추적하며, **원인을 분석중 "[ WebApp Instance 재시작 원인] " 에서의 " 2번 " Case 에 해당한다는 결론**을 내리게 되었다. 
@@ -90,7 +94,7 @@ tags: cloud azure MS
    
    **[ 해결 방법 ]**
    
-   . <u>**결론을 말하자면, 다른 Platform 으로 이관하지 않는 이상 벤더가 해결 해주 전까지는 해결 방법은 없다.**</u>
+   . **결론을 말하자면, 다른 Platform 으로 이관하지 않는 이상 벤더가 해결 해주 전까지는 해결 방법은 없다.**
    
    
    
@@ -146,13 +150,16 @@ tags: cloud azure MS
 
    : 비즈니스 모델에서의 사용자 접속 요구 범위가 예측 불가능 할 경우 필요에 따라 서비스 접속 요구량을 가변적으로 운영 할 수 있는 장점과 인프라 구축 비용이 별도로 소요 되지 않는 장점이 있다. 따라서, PaaS 서비스는 향후 매우 중요한 Platform 으로 주목 받고 있다.
 
+
 2. **On-Premise 서비스는 PaaS 로 Migration 이 가능한가 ?**
 
    : MSA 구조로 되어 있다면 가능하나 Monolithic Architecture Web Source 라면 Migration 하지 않는 것이 정신 건강에 이롭다.   
 
+
 3. **PaaS 로 구축하면 TCO 가 절감된다 ?**
 
    : 신규 구축 프로젝트 혹은 Migration 프로젝트의 성격에 따라 TCO 가 더 높게 나올수 있다. 다양한 인프라 구축 및 지원 경험이 있는 인프라 엔지니어와 협의 하에 신중히 설계 해야 한다. 절대로 벤더사 영업및 Cloud 경력만 있는 엔지니어의  말만 의존해서는 안된다.
+
 
 4. **PaaS 구축시 DevOps 는 필수 인가 ?**
 
