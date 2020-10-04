@@ -80,7 +80,7 @@ tags: cloud azure MS
    
    
    
-   1. **JAVA Heap Memory 의 적절한 full GC 가 적절히 진행되지 않아 Memory 임계치에 도달**
+   1. **JAVA Heap Memory 의 적절한 full GC 가 진행되지 않아 JAVA Heap Memory 임계치에 도달**
    2. **JAVA Heap Memory 의 소진과 함께 임계치에 도달하여 "OOM" 발생과 함께 장애 발생**
    3. **JAVA Heap Memory 임계치 발생 이후에 WebSite Request 요청에 Suspend 가 발생**
    4. **Web Request 에 Suspend 현상을 ARR 이 이상 징후로 판단**
