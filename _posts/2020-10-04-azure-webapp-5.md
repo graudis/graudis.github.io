@@ -36,11 +36,11 @@ tags: cloud azure MS
 
    **[ WebApp Instance 재시작 원인 ]**
 
-   1. **ARR 과 WebApp Instance 간의 HTTP Request "code 200 OK" 가 30초 동안 확인 되지 않으면 강제로 해당 Web Instance 를 재시작 시킨다.**
+   . **ARR 과 WebApp Instance 간의 HTTP Request "code 200 OK" 가 30초 동안 확인 되지 않으면 강제로 해당 Web Instance 를 재시작 시킨다.**
    
-   2. **WebApp Instance 내의 JVM 메모리에서 이상이 발생하여 WebApp Instance 가 응답이 없을 경우에도 해당 WebApp Instance 를 강제 재시작 시킨다.**
+   . **WebApp Instance 내의 JVM 메모리에서 이상이 발생하여 WebApp Instance 가 응답이 없을 경우에도 해당 WebApp Instance 를 강제 재시작 시킨다.**
    
-   3. **WebApp Instance Docker 내에 Mount 된 Storage Volume 연결에 장애 발생시 WebApp Instance 의 장애로 이어져 해당 WebApp Instance 를 강제 재시작 시킨다.**
+   . **WebApp Instance Docker 내에 Mount 된 Storage Volume 연결에 장애 발생시 WebApp Instance 의 장애로 이어져 해당 WebApp Instance 를 강제 재시작 시킨다.**
 
    
 
