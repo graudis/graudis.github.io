@@ -153,7 +153,8 @@ tags: cloud azure MS
 
 2. **On-Premise 서비스는 PaaS 로 Migration 이 가능한가 ?**
 
-   : MSA 구조로 되어 있다면 가능하나 Monolithic Architecture Web Source 라면 Migration 하지 않는 것이 정신 건강에 이롭다.   
+   : MSA 구조로 되어 있다면 가능하나 **Monolithic Architecture Web Source 라면 Migration 하지 않는 것이 정신 건강에 이롭다.** 
+   ( 필자와 같이 어쩔수 없이 PaaS Migration 해야 한다면.... 그냥 하지 말것을 권유 한다. 본인의 정신건강을 학대 하고 싶다면 해도 상관없다. )
 
 
 3. **PaaS 로 구축하면 TCO 가 절감된다 ?**
