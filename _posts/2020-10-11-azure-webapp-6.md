@@ -52,7 +52,7 @@ tags: cloud azure MS
 
    - **서비스 흐름도**
 
-     ![Azure_Data_Disk_Box1](https://github.com/graudis/graudis.github.io/blob/master/_image/data-box-disk-security-1.png?raw=true)
+     ![Azure-Data-Disk-Box1](https://github.com/graudis/graudis.github.io/blob/master/_image/data-box-disk-security-1.png?raw=true)
 
      
 
@@ -80,7 +80,7 @@ tags: cloud azure MS
 
    - **구성품**
 
-   ![Azure_data_disk_box2](https://github.com/graudis/graudis.github.io/blob/master/_image/data-box-disk-ship-package1.png?raw=true)
+   ![Azure-data-disk-box2](https://github.com/graudis/graudis.github.io/blob/master/_image/data-box-disk-ship-package1.png?raw=true)
 
    
 
@@ -98,13 +98,13 @@ tags: cloud azure MS
 
    - **디스크에 연결 및 암호 가져오기**
 
-   ![Azure_data_disk_box3](https://github.com/graudis/graudis.github.io/blob/master/_image/data-box-disk-connect-unlock.png?raw=true)
+   ![Azure-data-disk-box3](https://github.com/graudis/graudis.github.io/blob/master/_image/data-box-disk-connect-unlock.png?raw=true)
 
    1. 포함된 케이블을 사용하여 필수 구성 요소에서 설명한 것처럼 지원되는 OS를 실행하는 클라이언트 컴퓨터에 디스크를 연결합니다.
 
       
 
-      ![Azure_data_disk_box4](https://github.com/graudis/graudis.github.io/blob/master/_image/data-box-disk-get-passkey.png?raw=true)
+      ![Azure-data-disk-box4](https://github.com/graudis/graudis.github.io/blob/master/_image/data-box-disk-get-passkey.png?raw=true)
 
    2. Azure Portal에서 Data Box Disk Order로 이동합니다. **일반 > 모든 리소스**로 이동하여 검색한 다음, Data Box Disk Order를 선택합니다. 복사 아이콘을 사용하여 암호를 복사합니다. 이 암호는 디스크의 잠금을 해제하는 데 사용됩니다
 
