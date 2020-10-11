@@ -30,6 +30,7 @@ tags: cloud azure MS
 
  
 
+
 1. **" 물리적 데이터 이관 : Azure Data Disk Box "**
 
    : On-Premise 에 있는 User Contents Data 를 Cloud  내의 BLOB Storage 로 이관해야 하는데 그 용량이 대략 34TB 950만건의 파일들이다. Network 으로 전송하기엔 WBS 에 계획된 Data 이관 스케쥴이 터무니 없이 부족하였다. 
@@ -45,6 +46,7 @@ tags: cloud azure MS
    
 
    다음은 벤더사의 " Azure Data Disk Box " 에 관한 자료 이다.
+
 
    
 
@@ -76,6 +78,7 @@ tags: cloud azure MS
 
    https://docs.microsoft.com/ko-kr/azure/databox/data-box-disk-security
 
+
    
 
    - **구성품**
@@ -94,7 +97,8 @@ tags: cloud azure MS
 
    3. 상자에 반송 배송을 위한 포장용 레이블(현재 레이블 아래)을 포함하는 투명한 케이스가 있는지 확인합니다. 이 레이블이 손실되거나 손상된 경우 Azure Portal에서 항상 새 레이블을 다운로드하고 인쇄할 수 있습니다.
 
-   
+
+
 
    - **디스크에 연결 및 암호 가져오기**
 
@@ -114,7 +118,8 @@ tags: cloud azure MS
 
    https://docs.microsoft.com/ko-kr/azure/databox/data-box-disk-deploy-set-up
 
-   
+
+
 
    **[ Azure Data Disk Box : 주의점 ]**
 
@@ -140,6 +145,7 @@ tags: cloud azure MS
 
       따라서, 위에서 설명한 주의점은 **Offline 형태로 Data 를 이관할때 공통적으로 생각할 문제점이라고 생각 하여 언급** 하였다.
 
+
    
 
    **[ Contents Data 이관 ]**
@@ -156,7 +162,8 @@ tags: cloud azure MS
 
    3. 우여 곡절 끝에 2개월 이상의 Data 이관 작업이 마무리 되어 BLOB Storage 에 고객의 Contents Data 이관이 모두 완료 되었다. 
 
-      
+
+
 
    **[ 악연의 연속 1 : Linux 를 몰라서요?! ]**
 
@@ -179,6 +186,7 @@ tags: cloud azure MS
       하지만, 고객에게 통보하기 전에 PM 과 사전 협의 후 고객과의 의사 결정이 일의 순서가 아닌가. 경력도 많고 나이도 있는 엔지니어가 도저히 믿기 힘는 행동을 함에 있어 상상 이하의 일들이 발생함에 있어 멘붕이 왔다.
 
       **에휴, 제발 Data 이관시 Data 만 누락 시키지 않길 바랄뿐.................**
+
 
    
 
@@ -209,8 +217,9 @@ tags: cloud azure MS
       나중에 안일이지만 **" RoboCopy 에서 복사된 File Name List Log 를 생성할 수 있다는 것을 사원 엔지니어 작업 내용을 보고 알게 되었다. "** 
 
       
+      
 
-   **[ 악연의 연속 3 : 950만건의 File 전수조사 ( 950만건 X 2 = 1,900만건 ) ]**
+   **[ 악연의 연속 3 : 950만건의 File 전수조사 ( AS-IS(950만건) + TO-BE(950만건) = 1,900만건 ) ]**
 
    1. **고객 요청 사항**은 다음과 같았다.
 
@@ -257,6 +266,7 @@ tags: cloud azure MS
       **고객은 서비스 CutOver 이후에도 돌발적으로 발생할지 모르는 Data 이관 누락 File 분에 대해서 1~2개월간 필자만을 상주 지원 하는 조건으로 프로젝트 완료를 승인** 하였따.
 
    
+   
 
    **[ 10만건 Contents Data File 누락 원인은 " Windows " 가 범인 ]** 
 
@@ -285,6 +295,7 @@ tags: cloud azure MS
       ( 이러한 이유로 Unix/Linux Data 이관 작업 할때 Linux Server 에서 작업 하라고 했건만... **"무식한건 죄가 아니지만, 무식한걸 알고도 노력 안하는건 죄다!"** )
 
       
+
 
       
 
