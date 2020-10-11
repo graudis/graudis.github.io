@@ -136,7 +136,7 @@ tags: cloud azure MS
 
       
 
-      **필자 의견 : ** 위의 **"Azure Data Disk Box : 주의점"** 이  Azure 만의 문제점은 아니다. **Public Cloud 벤더사에서 제공하는 Offline Data 이관 Solution 들은 그 명칭만 다를뿐 대부분이 위와 같은 USB Interface 연결 방식으로 물리적 Disk 를 제공하는 서비스**로 알고 있다.
+      **필자 의견 : 위의 "Azure Data Disk Box : 주의점"** 이  Azure 만의 문제점은 아니다. **Public Cloud 벤더사에서 제공하는 Offline Data 이관 Solution 들은 그 명칭만 다를뿐 대부분이 위와 같은 USB Interface 연결 방식으로 물리적 Disk 를 제공하는 서비스**로 알고 있다.
 
       따라서, 위에서 설명한 주의점은 **Offline 형태로 Data 를 이관할때 공통적으로 생각할 문제점이라고 생각 하여 언급** 하였다.
 
@@ -154,7 +154,7 @@ tags: cloud azure MS
 
       
 
-   3. 우여 곡절 끝에 1개월 이상의 Data 이관 작업이 마무리 되어 BLOB Storage 에 고객의 Contents Data 이관이 모두 완료 되었다. 
+   3. 우여 곡절 끝에 2개월 이상의 Data 이관 작업이 마무리 되어 BLOB Storage 에 고객의 Contents Data 이관이 모두 완료 되었다. 
 
       
 
