@@ -141,7 +141,9 @@ tags: cloud azure MS
 
       
 
-      **필자 의견 : 위의 "Azure Data Disk Box : 주의점"** 이  Azure 만의 문제점은 아니다. **Public Cloud 벤더사에서 제공하는 Offline Data 이관 Solution 들은 그 명칭만 다를뿐 대부분이 위와 같은 USB Interface 연결 방식으로 물리적 Disk 를 제공하는 서비스**로 알고 있다.
+      **필자 의견 : 위의 "Azure Data Disk Box : 주의점"** 이  Azure 만의 문제점은 아니다. 
+      
+      **Public Cloud 벤더사에서 제공하는 Offline Data 이관 Solution 들은 그 명칭만 다를뿐 대부분이 위와 같은 USB Interface 연결 방식으로 물리적 Disk 를 제공하는 서비스**로 알고 있다.
 
       따라서, 위에서 설명한 주의점은 **Offline 형태로 Data 를 이관할때 공통적으로 생각할 문제점이라고 생각 하여 언급** 하였다.
 
@@ -156,7 +158,11 @@ tags: cloud azure MS
 
       
 
-   2. 32TB / 4.7TB = 7 개의 Disk 가 소요 되었다. 1 Disk 사용 비용은 정액 비용으로 처리 되어 비용이 지불 되었다. **자사 인프라 엔지니의 전무한 Data 이관 경험능력치 와 Data 이관에 관한 기초 지식의 부제, BLOB Storage 대한 지식 무지로 인하여 고객의 32TB Contents Data 이관하는데 2개월 이상이 소요** 되어 고객의 또다른 불만요인으로 작용하였다.
+   2. 32TB / 4.7TB = 7 개의 Disk 가 소요 되었다. 
+   
+   1 Disk 사용 비용은 정액 비용으로 처리 되어 비용이 지불 되었다. 
+   
+   **자사 인프라 엔지니의 전무한 Data 이관 경험능력치 와 Data 이관에 관한 기초 지식의 부제, BLOB Storage 대한 지식 무지로 인하여 고객의 32TB Contents Data 이관하는데 2개월 이상이 소요** 되어 고객의 또다른 불만요인으로 작용하였다.
 
       
 
