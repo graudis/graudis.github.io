@@ -55,7 +55,7 @@ tags: cloud azure MS
 
    우선 **Blob Storage 원래 용도** 부터 알아 보자.
 
-   **저비용으로 대용량의 Data 들을 백업/보존 의 목적으로 아카이빙( Archiving ) 목적 로 사용하기 위한 Storage 서비스가 바로 Blob Storage 서비스** 이다.
+   **저비용으로 대용량의 Data 들을 백업/보존 하기 위하여 아카이빙( Archiving ) 목적 로 사용하기 위한 Storage 서비스가 바로 Blob Storage 서비스** 이다.
 
    
 
@@ -134,7 +134,9 @@ tags: cloud azure MS
 
 2. **불편한 진실 : Cloud Azure Files(SMB) 는 IOPS 를 보장도 하지 않으면서 비싸기 까지 하다.**
 
-   영업사원 말에 의해서 Blob Storage 로 이관하여 장애 발생후 초기 Storage 선택이 잘못된걸 인지한 이후에 고객에게 엄청난 항의를 받고서 선택 하는 Storage 가 바로 Azure Files(SMB) Storage 서비스 입니다.
+   영업사원 말에 의해서 Blob Storage 로 이관하여 장애 발생후 초기 Storage 선택이 잘못된걸 인지한 이후에 고객에게 엄청난 항의를 받고서 선택 한 Storage 서비스가 바로 Azure Files(SMB) Storage 서비스 입니다.
+   
+   **Azure Files(SMB) 서비스도 Blob Storage 와 같은 백업/보존 하기 위하여 아카이빙( Archiving ) 목적 로 사용하기 위한 Storage 서비스** 입니다.
 
    
 
