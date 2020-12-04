@@ -136,7 +136,7 @@ tags: cloud azure MS
 
    영업사원 말에 의해서 Blob Storage 로 이관하여 장애 발생후 초기 Storage 선택이 잘못된걸 인지한 이후에 고객에게 엄청난 항의를 받고서 선택 한 Storage 서비스가 바로 Azure Files(SMB) Storage 서비스 입니다.
    
-   **Azure Files(SMB) 서비스도 Blob Storage 와 같은 백업/보존 하기 위하여 아카이빙( Archiving ) 목적 로 사용하기 위한 Storage 서비스** 입니다.
+   **Azure Files(SMB) 서비스도 Blob Storage 와 같은 백업/보존 하기 위하여 아카이빙( Archiving ) 목적 로 사용하기를 권장** 합니다. 
 
    
 
