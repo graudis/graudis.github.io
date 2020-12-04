@@ -67,7 +67,8 @@ tags: cloud azure MS
 
    . 이러한 영업사원의 단편적인 설명으로 인하여 고객은 Blob Storage 이  **AS-IS 고비용의 Storage 에서의 동일한 File Read/Write 속도를 보장하면서도 비용이 매우 저렴한 것처럼 착각** 하게 된다. 
 
-   
+  
+  
 
    **[ 예고된 사고 : Blob Storage 는 Mount 할 수 없다. ]**
 
@@ -103,7 +104,7 @@ tags: cloud azure MS
    - [Node.JS](https://github.com/Azure/azure-sdk-for-js/tree/master/sdk/storage)
    - [Python](https://docs.microsoft.com/ko-kr/azure/storage/blobs/storage-quickstart-blobs-python)
    - [Go](https://github.com/azure/azure-storage-blob-go/)
-- [PHP](https://azure.github.io/azure-storage-php/)
+   - [PHP](https://azure.github.io/azure-storage-php/)
    - [Ruby](https://azure.github.io/azure-storage-ruby)
 
    
@@ -146,6 +147,7 @@ tags: cloud azure MS
    ![azure-file2](https://github.com/graudis/graudis.github.io/blob/master/_image/azure-files-2.png?raw=true)
 
 
+
    같은 30TB 용량을 기준으로 계산결과 Blob Storage 비용대비 4배 이상의 차이를 보입니다.
 
    하지만, Blob Storage 에서는 해결되지 않는 문제점들을 해결 할 수 있다는 희망으로 
@@ -179,6 +181,7 @@ tags: cloud azure MS
    **. 비용 : Blob Storage 대비 4배 이상의 고비용**
 
    **. IOPS : 그 어디에도 Azure Files(SMB) Storage Volume 에 관한 IOPS 에 관한 부분이 명시되거나 언급이 없음** 
+
 
    
 
@@ -218,6 +221,7 @@ tags: cloud azure MS
 
    맞다. C**loud 내의 Server to Server 와 Server to Storage 간의 네트워크 비용은 거의 무료이거나 아주 저렴한 비용만 청구**된다. 
 
+
    
 
    여기서, 함정카드 발동~! 
@@ -240,7 +244,7 @@ tags: cloud azure MS
 
    **다음은 벤더사의 Network " Bandwidth " 서버의 가격 계산이다.**
 
-   ㅁㄴㅇㄻ
+
 
    ![bandwidth](https://github.com/graudis/graudis.github.io/blob/master/_image/azure-bandwidth-1.png?raw=true)
 
@@ -280,19 +284,22 @@ tags: cloud azure MS
 
    Storage 공간을 매달 임대하여 쓰기에 당연히 매달 비용을 낸다고 생각하면 얼추 이해가 되지만, Bandwidth 서비스 과금은 좀 과하지 않나 싶은 생각이 든다.
 
+
    
 
    . **타 Cloud 벤더로 이관할때도 Data Out bounding 으로 인한 요금 부과 발생**
 
    : **타 Cloud 벤더로 옮길때도 많은 비용을 이관하는 쪽이 아닌 Out Bounding 발생하는 떠나는 벤더사에게 지불**하고 이관해야 한다. **이관 계획을 신중히 생각** 해야 한다.
 
-   
+
+
 
    . **I/O 가 빈번하게 발생하는 Business Logic 에서는 Blob / Azure File 는 사용을 필자는 권장하지 않는다**
 
    : I/O 가 빈번하게 발생하는 E-commerce 의 Image 서버 의 Storage 용도 및 동영상 Encoding / Decoding 이 직접 진행되는 Storage Volume 용으로는 사용하지 않는 것을 필자는 권장한다.
 
-   
+
+
 
    . **필자의 뇌피셜( 흑우가 되지 말자! )**
 
