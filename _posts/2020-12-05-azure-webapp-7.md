@@ -6,6 +6,7 @@ img: azure-webapp-404.png # Add image post (optional)
 categories: cloud azure
 tags: cloud azure MS
 ---
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fgraudis%2Fgraudis.github.io%2Fblob%2Fmaster%2F_posts%2F2020-12-05-azure-webapp-7.md&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
 
 ​	**필자연역 :** Linux 을 15년 이상 해왔으며, Linux 기반의 Enterprise 인프라 구축 엔지니어 생활을 8년 동안 하였으며, OpenSource 구축 및 기술지원 분야에서 다양한 경험을 하였다.
@@ -40,11 +41,11 @@ tags: cloud azure MS
 
    **다음은 벤더사의 " BLOB Storage " 서비스 계산표 이다.**
 
-   ![blob1](D:\GitHub\localRepo\Cloud-Doc\graudis.github.io\_image\azure-blob-1.png)
+   ![blob1](https://github.com/graudis/graudis.github.io/blob/master/_image/azure-blob-1.png?raw=true)
 
-   ![blob2](D:\GitHub\localRepo\Cloud-Doc\graudis.github.io\_image\azure-blob-2.png)
+   ![blob2](https://github.com/graudis/graudis.github.io/blob/master/_image/azure-blob-2.png?raw=true)
 
-   ![blob3](D:\GitHub\localRepo\Cloud-Doc\graudis.github.io\_image\azure-blob-3.png)
+   ![blob3](https://github.com/graudis/graudis.github.io/blob/master/_image/azure-blob-3.png?raw=true)
 
    위의 **30TB 의 Data 를 저장하는대 월 70만원 선으로 매우 비용이 저렴**하게 계산된다.
 
@@ -140,9 +141,10 @@ tags: cloud azure MS
 
    
 
-   ![azure-file1](D:\GitHub\localRepo\Cloud-Doc\graudis.github.io\_image\azure-files-1.png)
+   ![azure-file1](https://github.com/graudis/graudis.github.io/blob/master/_image/azure-files-1.png?raw=true)
 
-   ![azure-file2](D:\GitHub\localRepo\Cloud-Doc\graudis.github.io\_image\azure-files-2.png)
+   ![azure-file2](https://github.com/graudis/graudis.github.io/blob/master/_image/azure-files-2.png?raw=true)
+
 
    같은 30TB 용량을 기준으로 계산결과 Blob Storage 비용대비 4배 이상의 차이를 보입니다.
 
@@ -240,7 +242,7 @@ tags: cloud azure MS
 
    ㅁㄴㅇㄻ
 
-   ![bandwidth](D:\GitHub\localRepo\Cloud-Doc\graudis.github.io\_image\azure-bandwidth-1.png)
+   ![bandwidth](https://github.com/graudis/graudis.github.io/blob/master/_image/azure-bandwidth-1.png?raw=true)
 
    
 
