@@ -244,7 +244,7 @@ tags: cloud azure MS
 
    
 
-   **다음은 벤더사의 Network " Bandwidth " 서버의 가격 계산이다.**
+   **다음은 벤더사의 Network " Bandwidth " 서비스 의 가격 계산이다.**
 
 
 
